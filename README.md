@@ -11,10 +11,12 @@ This package provide methods that help in logging you can change the log engine 
 ### Install
 
 ```bash
-go get github.com/jkaveri/goabs/log
-# install adapter
-# for example, if you use logrus
-go get github.com/jkaveri/goabs/log/adapter-logrus
+# install logging abstraction package then you can use
+# this pacakge for your logging
+go get -u github.com/jkaveri/goabs-log
+
+## install logrus adapter to use logrus as log engine
+go get -u github.com/jkaveri/goabs-adapter-logrus
 ```
 
 ### Default
@@ -85,4 +87,4 @@ log.Configure(mylogadapter.NewAdapter())
 
 ### Examples
 
-- [Use with logrus](../examples/log-logrus/log-logrus.go)
+- [Use with logrus](https://github.com/jkaveri/goabs/tree/master/examples/log-logrus)

@@ -1,5 +1,7 @@
 # Logging
 
+[![Build Status](https://travis-ci.org/jkaveri/goabs-log.svg?branch=master)](https://travis-ci.org/jkaveri/goabs-log)[![codecov](https://codecov.io/gh/jkaveri/goabs-log/branch/master/graph/badge.svg)](https://codecov.io/gh/jkaveri/goabs-log)
+
 This package provide methods that help in logging you can change the log engine by changing the log adapter which implements the `ILogAdapter` interface
 
 ## Design
